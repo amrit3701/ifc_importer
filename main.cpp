@@ -43,14 +43,16 @@ int main () {
 			string extracted = ExtractString( line, "=", "(" );
 			
 			// Calling differnt funtions according to the entity present in
-			// STEP file.
+			// STEP file and pasre it to specific file of step-g translator
+      // using line variable.
 
 			if (extracted == "IFCCARTESIANPOINT"){
-				// Using /step/step-g/CartesianPoint.cpp 
+				// Parsing value to /step/step-g/CartesianPoint.cpp using line 
+        // variable. 
 			}
 
 			else if (extracted == "IFCDIRECTION"){
-				// using /step/step-g/Direction.cpp  
+				// Parsing value to /step/step-g/Direction.cpp  
 			}
 
 			// Similarly adding all the entities present in IFC file. 
