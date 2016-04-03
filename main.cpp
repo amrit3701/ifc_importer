@@ -15,7 +15,7 @@ string ExtractString( string source, string start, string end )
     if( startIndex == string::npos )
     {
        return emptyString;
-	}
+	  }
 	
 	// Adding the length of the delimiter to our starting index
 	// this will move us to the beginning of our sub-string.
